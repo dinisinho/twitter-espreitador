@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import tweepy
 import logging
-from conexion import conexion
 
 class Espreitador(tweepy.Stream):
     def __init__(self, consumer_key, consumer_secret, access_token, access_token_secret, api, filtros):
