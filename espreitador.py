@@ -34,4 +34,4 @@ class Espreitador(tweepy.Stream):
                             logging.info(f"Comezamos a seguir o usuario {id_usuario}")
                         break
                     except Exception as e:
-                        logging.erro(f"erro realizando accións sobre o tweet {e}")
+                        logging.error(f"erro realizando accións sobre o tweet {e}")
